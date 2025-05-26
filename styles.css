@@ -1,9 +1,11 @@
+/*CSS for Body*/
 #b{
    background-color: aquamarine;
    color: darkgreen;
    text-align: center;
    font-family: 'Courier New', Courier, monospace;
   }
+  /*CSS for Heading*/
 h1{
    font-size: 450%;  
    color: darkgreen;
@@ -16,6 +18,7 @@ h1{
    width: 60%;
    margin: 1% auto;
   }
+  /*CSS for the Input Part*/
 form{
      font-size: 150%;
      border: 3px;
@@ -26,10 +29,15 @@ form{
      background-color:rgb(79, 250, 193);
      box-shadow: 0 9px 17px rgba(0, 0, 0, 0.3);
     }
+    /*CSS for the Button*/
 button{
        font-size: 58%;
        color: darkgreen;
       }
+      button:hover{
+        background-color: rgb(66, 255, 192);
+      }
+      /*CSS for the Input Boxes*/
 #d1,#d2,.d3,.d4{
                  font-family: 'Courier New', Courier, monospace;
                  font-size: 75%;
@@ -38,8 +46,8 @@ button{
                  color: darkgreen;
                  background-color: rgb(171, 241, 218);
                  box-shadow: 0 2px 4px;
-
                 }
+                /*CSS for the Saving Task Box*/
 p{
    padding:20px;
    border: 3px;
