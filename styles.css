@@ -3,21 +3,29 @@ header{
   text-align: left;
   font-family: 'Courier New', Courier, monospace;
   border: 1px white;
-  background-color: rgb(186, 247, 227);
+  background-color: rgba(0, 247, 255, 0.116);
   height: 20%;
   
 }
-/*CSS for Header Button*/
-#bh{
-  font-size: 150%;
-  color: darkgreen;
-  background-color: rgb(171, 241, 218);
-  border-color: rgb(79, 250, 193);
-
+/*CSS for Link*/
+a{
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 200%;
+  border: 2px;
 }
-#bh:hover{
-        background-color: rgb(66, 255, 192);
-      }
+#home:hover{
+  background-color: rgb(171, 241, 218);
+}
+#explore:hover{
+  background-color: rgb(171, 241, 218);
+}
+#about:hover{
+  background-color: rgb(171, 241, 218);
+}
+#contact:hover{
+  background-color: rgb(171, 241, 218);
+}
 /*CSS for Body*/
 #b{
    background-color: aquamarine;
