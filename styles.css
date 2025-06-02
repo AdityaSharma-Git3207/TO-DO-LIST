@@ -5,26 +5,34 @@ header{
   border: 1px white;
   background-color: rgba(0, 247, 255, 0.116);
   height: 20%;
-  
 }
-/*CSS for Link*/
+/*CSS for Header Link*/
 a{
   text-decoration: none;
   font-family: 'Courier New', Courier, monospace;
   font-size: 200%;
-  border: 2px;
+  padding: 1px;
+  border: 1px ;
+  color: darkgreen;
+  padding: 1px 6px;
+  font-style: italic;
 }
 #home:hover{
   background-color: rgb(171, 241, 218);
+  border: 3px;
+  
 }
 #explore:hover{
   background-color: rgb(171, 241, 218);
+  border: 3px;
 }
 #about:hover{
   background-color: rgb(171, 241, 218);
+  border: 3px;
 }
 #contact:hover{
   background-color: rgb(171, 241, 218);
+  border: 3px;
 }
 /*CSS for Body*/
 #b{
