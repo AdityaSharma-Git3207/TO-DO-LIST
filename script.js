@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     let tasks = [];
     let editIndex = -1;
-
+document.querySelector
     function updateTaskDisplay() {
         taskDisplay.innerHTML = "";
 
